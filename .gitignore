@@ -20,7 +20,10 @@ Thumbs.db
 
 # Generated local artifacts
 storage/
-/reports/
+/reports/*
+!/reports/evaluation_report.md
 solution/reports/*.json
 solution/reports/local_*.md
 !solution/reports/reference_evaluation.md
+
+Claude*outputs/
